@@ -8,7 +8,12 @@ document.getElementById("concatenation-string").onclick = () => {
 
     document.getElementById("original").innerHTML = '<p>let firstName = "Abdullah";<br>let lastName = "Iftikhar";<br>let fullName = firstName + " " + lastName;<p/>'
 }
-
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
+}
 
 // "Ask Name From User"
 document.getElementById("askNameFromUser").onclick = () => {
@@ -18,6 +23,12 @@ document.getElementById("askNameFromUser").onclick = () => {
 
     document.getElementById("original").innerHTML = '<p>let name = prompt("Enter your Name");<p/>'
 }
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
+}
 
 
 // "Comparison Operators"
@@ -26,6 +37,12 @@ document.getElementById("comparisonOperators").onclick = () => {
     document.getElementById("output").style.textAlign = "center"
 
     document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
 }
 
 
@@ -44,6 +61,12 @@ document.getElementById("ifElseIf").onclick = () => {
     document.getElementById("original").innerHTML = '<p>let num1 = 10;<br> let num2 = 20;<br>if (num1 >= num2) {<br>alert("First Condition is True")<br> } else if (num1 <= num2){<br> alert("Second Condition is True")<br>} else {<br>  "Nothing Condition is True"<br>  }<p/>'
     document.getElementById("output").innerHTML = ""
 
+}
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
 }
 
 
@@ -65,6 +88,13 @@ document.getElementById("testingSetsofConditions").onclick = () => {
 
     document.getElementById("original").innerHTML = '<p>let age = prompt("Enter Your Age")<br>let weight = prompt("Enter Your Weight")<br>if (age >= 18 && weight <= 70) { <br>document.getElementById("output").innerHTML = "You are a Fit man."<br> } (age >= 18 && weight > 70) { <br>document.getElementById("output").innerHTML = "You are a Fat man."<br> } else { <br>document.getElementById("output").innerHTML ="You are a Child."<br>  }<p/>'
 }
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
+}
+
 
 
 // if Statements Nested
@@ -89,6 +119,13 @@ document.getElementById("ifStatementsNested").onclick = () => {
 
     document.getElementById("original").innerHTML = '<p>let age = prompt("Enter Your Age")<br>if (age >= 18) { <br>let weight = prompt("Enter Your Weight")<br>if (weight <= 70) { <br>document.getElementById("output").innerHTML = "You are a Fit man."<br> } else {<br> document.getElementById("output").innerHTML = "You are a Fat man."<br> } else { <br>document.getElementById("output").innerHTML ="You are a Child."<br>  }<p/>'
 }
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
+}
+
 
 
 
@@ -106,6 +143,15 @@ document.getElementById("login").onclick = () => {
 
     document.getElementById("original").innerHTML = '<p>let name = prompt("Enter Your Login Name")<br>let pass = prompt("Enter Your Login Password")<br>if ( name == "Abdullah" && pass == 123 ) {<br>document.getElementById("output").innerHTML = "User Logged in" <br>} else {<br>  document.getElementById("output").innerHTML = "User Name or Password is Incorrect"<br>  }<p/>'
 }
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
+}
+
+
+
 
 // Check
 document.getElementById("check").onclick = () => {
@@ -119,5 +165,11 @@ document.getElementById("check").onclick = () => {
     document.getElementById("output").style.textAlign = "center"
 
     document.getElementById("original").innerHTML = '<p>let assignment = prompt("Assignment Checked Or Unchecked")<br>if ( assignment  == "checked" ) {<br>document.getElementById("output").innerHTML = "Your Assignment is Checked" <br>} else {<br>document.getElementById("output").innerHTML = "Your Assignment is UnChecked"<br>  }<p/>'
+}
+document.getElementById("clearStatement").onclick = () => {
+    document.getElementById("original").innerHTML = ""
+}
+document.getElementById("clearOutput").onclick = () => {
+    document.getElementById("output").innerHTML = ""
 }
 
